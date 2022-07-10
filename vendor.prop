@@ -13,6 +13,7 @@ ro.soc.model=SDM7150
 
 # Display
 debug.sf.frame_rate_multiple_threshold=120
+vendor.display.disable_metadata_dynamic_fps=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so

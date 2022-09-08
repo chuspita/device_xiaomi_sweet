@@ -26,6 +26,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 CHERISH_BUILD_TYPE=OFFICIAL
 WITH_GMS := true
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Niranjan&Madhav
+    ro.cherish.maintainer=Niranjan
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true

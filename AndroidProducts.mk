@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_sweet.mk
+    $(LOCAL_DIR)/voltage_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_sweet-user \
-    cherish_sweet-userdebug \
-    cherish_sweet-eng
+    voltage_sweet-user \
+    voltage_sweet-userdebug \
+    voltage_sweet-eng

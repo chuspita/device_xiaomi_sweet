@@ -1,5 +1,5 @@
-# Nuke 
-rm -rf hardware/qcom-caf/sm8150/display 
+# Remove
+rm -rf hardware/qcom-caf/sm8150/display
 rm -rf hardware/qcom-caf/sm8150/audio
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf packages/resources/devicesettings

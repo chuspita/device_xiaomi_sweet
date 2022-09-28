@@ -25,7 +25,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<compatibility-matrix version="1.0" type="framework">
+<compatibility-matrix version="4.0" type="framework">
 <hal format="hidl">
     <name>android.hardware.ir</name>
     <version>1.0</version>
@@ -361,4 +361,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <instance>default</instance>
     </interface>
 </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>

@@ -81,10 +81,6 @@
             <instance>default</instance>
         </interface>
         <interface>
-            <name>IHighTouchPollingRate</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
             <name>IKeyDisabler</name>
             <instance>default</instance>
         </interface>

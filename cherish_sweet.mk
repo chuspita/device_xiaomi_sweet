@@ -22,6 +22,11 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true
 TARGET_NO_PREBUILT_CAMERA := true
 
+# Maintainer Flags
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=franlop77
+CHERISH_BUILD_TYPE := UNOFFICIAL
+
 
 PRODUCT_NAME := cherish_sweet
 PRODUCT_DEVICE := sweet

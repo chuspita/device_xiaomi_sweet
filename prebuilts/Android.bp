@@ -37,3 +37,17 @@ android_app_import {
     presigned: true,
 
 }
+
+// DialerAosp
+android_app_import {
+    name: "dialer",
+
+    overrides: ["GoogleDialer"],
+
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "dialer.apk",
+    presigned: true,
+
+}

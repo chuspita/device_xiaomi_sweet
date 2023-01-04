@@ -26,4 +26,14 @@ android_app_import {
 
 }
 
+// Lawnchair
+android_app_import {
+    name: "Lawnchair",
 
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "Lawnchair.apk",
+    presigned: true,
+
+}

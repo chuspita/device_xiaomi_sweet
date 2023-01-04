@@ -129,7 +129,8 @@ PRODUCT_COPY_FILES += \
     
 # Prebuilts
 PRODUCT_PACKAGES += \
-    newpipe
+    newpipe \
+    Lawnchair
 
 # Recovery
 PRODUCT_PACKAGES += \

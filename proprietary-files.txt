@@ -424,14 +424,6 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 -vendor/lib64/libthermalclient.so
 
-# Touch Feature
-vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
-vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so
-vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
-
 # Vibrator
 vendor/firmware/AcousticGuitar_RTP.bin
 vendor/firmware/Atlantis_RTP.bin

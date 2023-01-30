@@ -11,24 +11,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common Cherish OS  Stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit common Blaze  Stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Cherish OS Stuffs
+# Blaze Stuffs
 WITH_GAPPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true
-TARGET_NO_PREBUILT_CAMERA := true
 
-# Maintainer Flags
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=franlop77
-CHERISH_BUILD_TYPE := UNOFFICIAL
-
-
-PRODUCT_NAME := cherish_sweet
+PRODUCT_NAME := blaze_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro

@@ -11,21 +11,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common Blaze  Stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+# Inherit common Alphadroid  Stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Blaze Stuffs
-WITH_GAPPS := true
+# Alphadroid Stuffs
+TARGET_HAS_UDFPS := false
+TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_MATLOG := false
+TARGET_USE_GRAPHENE_CAMERA := true
+TARGET_USE_PIXEL_LAUNCHER := false
+TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_BLUR := true
+
+# Gapps
+WITH_GAPPS := true
+TARGET_CORE_GAPPS := false
+TARGET_CORE_GAPPS_EXTRAS := false
 
 # Blaze Maintainer
-BLAZE_BUILD_TYPE := UNOFFICIAL
-BLAZE_MAINTAINER := Franlop77
+ALPHA_MAINTAINER := franlop77
 
-PRODUCT_NAME := blaze_sweet
+PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
